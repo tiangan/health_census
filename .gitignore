@@ -1,0 +1,48 @@
+# macOS system files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Python virtual environment
+venv/
+__pycache__/
+
+# Log files
+*.log
+
+# Compiled files
+*.o
+*.out
+*.class
+
+# Package files
+*.zip
+*.tar.gz
+*.7z
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific hidden files
+Thumbs.db
+
+# Temporary or backup files
+*.tmp
+*.swp
+*~
+# Git ignored files (usually created during merges)
+*.orig
+
+# Environment variables
+.env
+
+# Build and distribution directories (e.g., for Python, Node.js, etc.)
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
